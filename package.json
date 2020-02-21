@@ -1,0 +1,43 @@
+{
+  "name": "skype-wall-board",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "localhost:3000",
+  "dependencies": {
+    "antd": "^3.23.5",
+    "axios": "^0.19.0",
+    "mssql": "^5.1.0",
+    "node": "^12.11.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.4.0",
+    "recharts": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "client": "",
+    "server": "nodemon C:\\Users\\amackenzie\\Websites\\SkypeWallBoard\\skype-wall-board\\src\\backend\\server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
